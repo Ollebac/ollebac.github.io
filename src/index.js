@@ -1,12 +1,28 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+
+import NavBar from './Nav';
+import Intro from './/components/Intro';
+import Work from './Work';
 import App from './App';
+
 import reportWebVitals from './reportWebVitals';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
+const navigation = ReactDOM.createRoot(document.getElementById('nav-menu'))
+const content = ReactDOM.createRoot(document.getElementById('content'));
+
+navigation.render(
   <React.StrictMode>
+    <NavBar />
+  </React.StrictMode>
+)
+
+content.render(
+  <React.StrictMode>
+
+    <Intro />
+    <Work />
     <App />
   </React.StrictMode>
 );

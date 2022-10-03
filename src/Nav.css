@@ -1,0 +1,37 @@
+.nav-bar {
+    background-color: black;
+    opacity: .4;
+    display: inline-block;
+}
+
+.nav-link {
+    left: 0;
+    top: 0;
+    right: 0;
+    padding: 0 40px 0 0;
+    vertical-align: middle;
+    float: left;
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: .03rem;
+
+}
+
+#nav-logo {
+    width: 30px;
+}
+
+.rotate {
+    animation: rotation 10s infinite linear
+}
+  
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
