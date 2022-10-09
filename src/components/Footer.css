@@ -1,0 +1,32 @@
+.footer_container {
+  margin-top: 50px;
+    min-height: 130px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+  
+.footer_alignment {
+  max-width: 1600px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.footer_header {
+  margin: 0;
+}
+
+.footer_content {
+  font-size: 1rem;
+  margin: 0;
+  line-height: 20px;
+  padding: 3px 2px;
+}
+
+.footer_link {
+  color: black;
+  font-weight: 500;
+}

@@ -1,0 +1,84 @@
+.content_container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 10rem;
+}
+
+.sidebyside_content {
+    max-width: 1600px;
+    width: 80%;
+    margin: 0 auto 5rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+    flex: 1 0 auto;
+}
+
+.img_container {
+    max-width: 50%;
+    margin: auto 0 auto auto;
+}
+
+#img_content {
+    width: 100%;
+    height: auto;
+}
+
+.text_content {
+    margin: auto 0;
+    width: 40%;
+    justify-content: center;
+}
+
+#my_name {
+    font-size: 2.5rem;
+    font-weight: 100;
+}
+
+#who_am_i {
+    font-size: 3.4rem;
+    font-weight: 100;
+}
+
+.description {
+    font-size: 1.5em;   
+  }
+  
+.button_container {
+    padding-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}  
+.download_button {
+    font-size: 2rem;
+    padding: 10px 20px;
+    border: 3px solid white;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}  
+
+.download_button:hover {
+    background-color: rgb(117, 117, 117);
+}
+
+@media all and (max-width:1100px) {
+    .sidebyside_content {
+        display: flex;
+        flex-direction: column;
+    }
+    .img_container {
+        display: block;
+        position: center;
+        width: 60%;
+        margin: auto auto;
+    }
+    .text_content {
+        display: block;
+        float: none;
+        width: 100%;
+    }   
+}
