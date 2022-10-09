@@ -73,7 +73,7 @@
     .img_container {
         display: block;
         position: center;
-        width: 60%;
+        width: 100%;
         margin: auto auto;
     }
     .text_content {
