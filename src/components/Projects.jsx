@@ -28,7 +28,7 @@ function Projects() {
                         <h1 className="project_title">Weather Application</h1>
                         <h4 className="project_title">NodeJS, Handlebars, Express, CSS, Heroku</h4>
                         <div className="project_links_container">
-                            <a href="https://github.com/Ollebac/portfolio_site" target="blank">
+                            <a href="https://github.com/Ollebac/node-weather-website" target="blank">
                                 <img src="github_logo.png" className="project_links" alt="web_logo"></img>
                             </a>
                         </div>
