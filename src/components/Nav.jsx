@@ -7,9 +7,6 @@ function Navbar() {
                 <Link className="left_nav_link" to="/"> Home </Link>
                 <Link className="left_nav_link" to="/About"> About </Link>
                 <Link className="left_nav_link" to="/Projects"> Projects </Link>
-                {/* <a className="left_nav_link" href="/"> Home </a>
-                <a className="left_nav_link" href="/About"> About </a>
-                <a className="left_nav_link" href="/Projects"> Projects </a> */}
             </div>
             <div class="nav_content">
                 <a className="right_nav_link" href="Cabello_CV.pdf" download> Download CV </a>
