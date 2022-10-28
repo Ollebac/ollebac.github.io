@@ -12,6 +12,7 @@
   font-size: 16px;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  cursor: default;
 }
 
 .page_content {
@@ -129,5 +130,6 @@ thead button.descending::before {
 
 tbody tr:hover {
   background-color: rgb(255, 255, 255, 0.5 );
+
 }
   

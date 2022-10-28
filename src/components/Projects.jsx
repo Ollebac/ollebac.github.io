@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Projects() {
     return (
         <div className="content_container">
@@ -21,6 +23,10 @@ function Projects() {
                             site after researching UI design through articles and observation. I also 
                             collaborated with multiple illustratorsand graphic designers for their contributions 
                             to the site.
+                        </p>
+                        <p className="sub_text">
+                            *Please note this is a static site hoste through Google Buckets. As it does not support
+                            server side rendering, please only navigate to other page via the links on page.
                         </p>
                     </div>
                     {/* Elder Drake - Items */}
@@ -47,8 +53,10 @@ function Projects() {
                         <h1 className="project_title">Potionomics Help Page</h1>
                         <h4 className="project_title">React, Hooks, Javascript, HTML, CSS</h4>
                         <div className="project_links_container">
-                            <a href="https://ollebac.dev/potionomics" target="blank">
-                                <img src="web_logo.png" className="project_links" alt="web_logo"></img>
+                            <a> 
+                                <Link to="/potionomics">
+                                    <img src="web_logo.png" className="project_links" alt="web_logo" />
+                                </Link>    
                             </a>
                             <a href="https://github.com/Ollebac/OneDayBuilds" target="blank">
                                 <img src="github_logo.png" className="project_links" alt="web_logo"></img>
@@ -76,6 +84,10 @@ function Projects() {
                             obtain the current forecast for that location. Rendering is done via Handlebars and
                             Express. The application was hosted on Heroku using Heroku Dynos.
                         </p>
+                        <p className="sub_text">
+                            *The link to Heroku has been removed as free Heroku Dynos are no longer provided 
+                            by Heroku.
+                        </p>
                     </div>
                 </div>
                 <hr className="project_break"></hr>
@@ -90,8 +102,6 @@ function Projects() {
                             </a>
                         </div>
                         <p class="project_description"> 
-
-                        
                         Created a simple drag and drop application that will display a list of uncompleted
                         and completed projects. The user can add projects to the uncompleted list and drag
                         them to and from the completed list as needed.
