@@ -23,6 +23,45 @@ function Projects() {
                             to the site.
                         </p>
                     </div>
+                    {/* Elder Drake - Items */}
+                    <div class="text_content">
+                        <h1 className="project_title">Discord Bot (Elder Drake)</h1>
+                        <h4 className="project_title">TypeScript, Discord API, Express</h4>
+                        <div className="project_links_container">
+                            <a href="https://github.com/Ollebac/elder-drake/tree/new_item_feature" target="blank">
+                                <img src="github_logo.png" className="project_links" alt="web_logo"></img>
+                            </a>
+                        </div>
+                        <p class="project_description"> 
+                            I added functionality to an existing bot for the game League of Legends. 
+                            The added functionality allows a user to pass an in-game item as input to
+                            the bot. The bot will then perform an API call based on a previously generated
+                            map and display the item's info to the user.
+                        </p>
+                    </div>
+                </div>    
+                <hr className="project_break"></hr>
+                <div className="projects_container">
+                    {/* Potionomics Guide */}
+                    <div class="text_content">
+                        <h1 className="project_title">Potionomics Help Page</h1>
+                        <h4 className="project_title">React, Hooks, Javascript, HTML, CSS</h4>
+                        <div className="project_links_container">
+                            <a href="https://ollebac.dev/potionomics" target="blank">
+                                <img src="web_logo.png" className="project_links" alt="web_logo"></img>
+                            </a>
+                            <a href="https://github.com/Ollebac/OneDayBuilds" target="blank">
+                                <img src="github_logo.png" className="project_links" alt="web_logo"></img>
+                            </a>
+                        </div>
+                        <p class="project_description"> 
+                            I just recently started playing a new resource management game called Potionomics, 
+                            part of the game is creating potions from ingredients that have different stats. The
+                            key to creating great potions is balancing the attributes of ingredients. With no 
+                            true guides out there yet, I wanted to create some simple tools to help players determine
+                            the best strategy. 
+                        </p>                    
+                    </div>
                     {/* Weather Application */}
                     <div class="text_content">
                         <h1 className="project_title">Weather Application</h1>
@@ -37,12 +76,8 @@ function Projects() {
                             obtain the current forecast for that location. Rendering is done via Handlebars and
                             Express. The application was hosted on Heroku using Heroku Dynos.
                         </p>
-                        <p className="sub_text">
-                            *The link to Heroku has been removed as free Heroku Dynos are no longer provided 
-                            by Heroku.
-                        </p>
                     </div>
-                </div>    
+                </div>
                 <hr className="project_break"></hr>
                 <div className="projects_container">
                     {/* Drag and Drop Application */}
@@ -55,22 +90,11 @@ function Projects() {
                             </a>
                         </div>
                         <p class="project_description"> 
+
+                        
                         Created a simple drag and drop application that will display a list of uncompleted
                         and completed projects. The user can add projects to the uncompleted list and drag
                         them to and from the completed list as needed.
-                        </p>
-                    </div>
-                    <div class="text_content">
-                        <h1 className="project_title">Discord Bot</h1>
-                        <h4 className="project_title">*Python* -&gt; TypeScript, DiscordJS </h4>
-                        <div className="project_links_container">
-                            {/* Links will go here */}
-                        </div>
-                        <p class="project_description"> 
-                            I am in the process of building a Discord bot for the game League
-                            of Legends. Currently the bot is built in Python but I am updating it to 
-                            TypeScript. As it stands, the bot can perform API calls to fetch the free 
-                            champions for the week, as well as fetch the level of a specified account.
                         </p>
                     </div>
                 </div>
